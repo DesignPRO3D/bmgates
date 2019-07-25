@@ -1,0 +1,160 @@
+#what .items {
+	display: block;
+	padding: 1rem;
+}
+
+/* Align icon to left */
+#what .items .item {
+	display: flex;
+	text-align: left;
+}
+
+/* Position icon */
+#what .items .item i {
+	margin-right: 1.3rem;
+	align-self: center;
+	margin-bottom: 0;
+}
+
+#contact > div:last-child {
+	display: none;
+}
+
+#contact .contact-box {
+	flex: 1;
+}
+
+#contact .social {
+	flex: 1;
+}
+
+/* Smartphones */
+@media (max-width: 500px) {
+	.mobile {
+		visibility: visible;
+	}
+	.desktop {
+		visibility: hidden;
+	}
+	#navbar {
+		flex-direction: column;
+		align-items: left;
+		height: 70px;
+	}
+
+	#navbar .logo {
+		margin-bottom: 0.5rem;
+		text-align: left;
+	}
+
+	#navbar ul {
+		padding: 0.5rem;
+	}
+
+	#showcase {
+		background: var(--background-color) url('../img/mobile.png') no-repeat
+			center center/cover;
+		height: 70vh;
+		color: var(--text-color);
+	}
+
+	#showcase .showcase-content {
+		top: 110px;
+		padding: 0.5rem;
+	}
+
+	#showcase .showcase-content .l-heading {
+		font-size: 2.5rem;
+		color: #fff;
+		text-shadow: 2px 2px #333;
+	}
+
+	#showcase .showcase-content .lead {
+		font-size: 1.7rem;
+		color: #fff;
+		text-shadow: 1px 1px #333;
+	}
+
+	/* What */
+	#what .items {
+		padding: 0;
+	}
+
+	#what .items .item {
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+	}
+
+	#what .items .item > div {
+		order: 1;
+	}
+
+	#what .items .item > img {
+		order: 2;
+	}
+
+	#what .items .item .icon-img {
+		display: block;
+		margin: auto;
+		border-radius: 0.3rem;
+		width: 80%;
+		padding: 0;
+	}
+
+	#what .items .item > div > h3 {
+		font-size: 1.4rem;
+		margin: 0.5rem;
+	}
+
+	#who {
+		display: block;
+	}
+
+	#who .who-img {
+		display: none;
+	}
+
+	/* Clients */
+	#clients .container {
+		padding: 0.5rem;
+	}
+
+	#clients .items img {
+		width: 90%;
+		margin: 0.5rem;
+	}
+
+	#clients .items {
+		padding: 0;
+	}
+
+	#clients .items div:last-child {
+		display: none;
+	}
+
+	/* Contact */
+	#contact {
+		/* flex-direction: column; */
+		display: block;
+	}
+
+	#contact > div:last-child {
+		display: none;
+	}
+}
+
+@media (max-height: 568px) {
+	#showcase .showcase-content {
+		margin-top: -2rem;
+		top: 140px;
+	}
+
+	.l-heading {
+		font-size: 3rem;
+	}
+
+	.lead {
+		font-size: 1rem;
+	}
+}

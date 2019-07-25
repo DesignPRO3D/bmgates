@@ -1,0 +1,22 @@
+#showcase .showcase-content h1 {
+	transform: translateY(-1200px);
+	animation: heading 1s forwards ease-in;
+}
+
+#showcase .showcase-content p,
+#showcase .showcase-content a {
+	transform: translateX(-1800px);
+	animation: text 1s forwards ease-in;
+}
+
+@keyframes heading {
+	to {
+		transform: translateY(0);
+	}
+}
+
+@keyframes text {
+	to {
+		transform: translateX(0);
+	}
+}
