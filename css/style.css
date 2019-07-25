@@ -76,6 +76,11 @@ p {
 	color: #f4f4f4;
 }
 
+.bg-blue-dark-text {
+	background: var(--text-start-color);
+	color: #333;
+}
+
 .l-heading {
 	font-size: 4rem;
 	margin-bottom: 0.75rem;
@@ -336,7 +341,7 @@ p {
 }
 
 #contact .send a {
-	color: #fff;
+	color: #333;
 	margin: 0.5rem;
 	font-size: 1.1rem;
 }
