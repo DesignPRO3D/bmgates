@@ -99,7 +99,8 @@
 		display: block;
 		margin: auto;
 		border-radius: 0.3rem;
-		width: 80%;
+		width: 200px;
+		height: 200px;
 		padding: 0;
 	}
 
@@ -122,8 +123,8 @@
 	}
 
 	#clients .items img {
-		width: 90%;
-		margin: 0.5rem;
+		width: 100%;
+		margin: 0.1rem;
 	}
 
 	#clients .items {
