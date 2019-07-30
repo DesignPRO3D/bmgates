@@ -15,7 +15,7 @@ limitations under the License.
 */
 const cacheName = 'cache-BM';
 const precacheResources = [
-  '/',
+  '',
   'index.html'
 ];
 
